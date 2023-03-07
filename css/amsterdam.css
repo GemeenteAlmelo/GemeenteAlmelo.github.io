@@ -12289,7 +12289,7 @@ ul.horizontal a:hover {
     }
 
     .grid-header-nav .z-nav .type-nav-primair {
-        background-color: #f5f5f5;
+        background-color: #003980;
         padding-left: calc((100% - 480px)/2);
         padding-right: calc((100% - 480px)/2)
     }
@@ -12306,14 +12306,14 @@ ul.horizontal a:hover {
 
 @media screen and (min-width:1024px) {
     .grid-search {
-        background-color: #f5f5f5
+        background-color: #003980
     }
 }
 
 .grid-header-nav,
 .grid-header-megamenu,
 .grid-header-search {
-    background-color: #f5f5f5
+    background-color: #003980
 }
 
 .grid-header-search {
