@@ -4852,8 +4852,8 @@ ul.links li .entry-image a {
 
 @media screen and (min-width:540px) {
     .subsitetitle {
-        display: block;
-        margin-left: 140px
+        display: inline-block; 
+        margin-left: 50px
     }
 }
 
