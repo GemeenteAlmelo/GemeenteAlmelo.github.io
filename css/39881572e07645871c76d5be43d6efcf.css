@@ -1,1 +1,6 @@
-.expand-to-canvas .grid-blok.grid-campagne .subgrid-container{height:100%;margin:0 calc((100% - 980px)/2);position:relative;width:960px}
+.expand-to-canvas .grid-blok.grid-campagne .subgrid-container {
+    height: 100%;
+    margin: 0 calc((100% - 980px)/2);
+    position: relative;
+    width: 960px
+}

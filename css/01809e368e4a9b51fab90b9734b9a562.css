@@ -1,1 +1,64 @@
-.grid-modern-regular-content-with-hero-image .grid-pagina .iprox-content.basis_afbeelding img.has-substantial-size,.grid-modern-regular-content .grid-pagina .iprox-content.basis_afbeelding img.has-substantial-size,.grid-modern-regular-content-with-hero-image .grid-pagina .iprox-rich-content img.has-substantial-size,.grid-modern-regular-content .grid-pagina .iprox-rich-content img.has-substantial-size{height:auto!important;max-height:none!important;max-width:100%!important;width:100%!important}.iprox-rich-content.inleiding{font-weight:700;margin-bottom:30px}.artikel .left_margezone .grid-inhetkort h2,.bekendmaking .left_margezone .grid-inhetkort h2,.livefeed .left_margezone .grid-inhetkort h2,.nieuwsartikel .left_margezone .grid-inhetkort h2,.product .left_margezone .grid-inhetkort h2,.vacature .left_margezone .grid-inhetkort h2,.vacature_nieuw .left_margezone .grid-inhetkort h2,.artikel .left_margezone .grid-opdezepagina h2,.bekendmaking .left_margezone .grid-opdezepagina h2,.livefeed .left_margezone .grid-opdezepagina h2,.nieuwsartikel .left_margezone .grid-opdezepagina h2,.product .left_margezone .grid-opdezepagina h2,.vacature .left_margezone .grid-opdezepagina h2,.vacature_nieuw .left_margezone .grid-opdezepagina h2,.artikel .left_margezone .grid-locaties h2,.bekendmaking .left_margezone .grid-locaties h2,.livefeed .left_margezone .grid-locaties h2,.nieuwsartikel .left_margezone .grid-locaties h2,.product .left_margezone .grid-locaties h2,.vacature .left_margezone .grid-locaties h2,.vacature_nieuw .left_margezone .grid-locaties h2{color:#ec0000}#map{height:200px}.grid-modern-regular-content-with-hero-image .grid-blok.grid-locaties,.grid-modern-regular-content .grid-blok.grid-locaties{display:none}.grid-blok.grid-locaties .coords{font-size:.8em}.nojs .iprox-content.tekst .verborgen{display:block}.nojs .grid-locaties li.tekstbrowser{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.grid-modern-regular-content-with-hero-image .grid-pagina .iprox-content.basis_afbeelding img.has-substantial-size,
+.grid-modern-regular-content .grid-pagina .iprox-content.basis_afbeelding img.has-substantial-size,
+.grid-modern-regular-content-with-hero-image .grid-pagina .iprox-rich-content img.has-substantial-size,
+.grid-modern-regular-content .grid-pagina .iprox-rich-content img.has-substantial-size {
+    height: auto !important;
+    max-height: none !important;
+    max-width: 100% !important;
+    width: 100% !important
+}
+
+.iprox-rich-content.inleiding {
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.artikel .left_margezone .grid-inhetkort h2,
+.bekendmaking .left_margezone .grid-inhetkort h2,
+.livefeed .left_margezone .grid-inhetkort h2,
+.nieuwsartikel .left_margezone .grid-inhetkort h2,
+.product .left_margezone .grid-inhetkort h2,
+.vacature .left_margezone .grid-inhetkort h2,
+.vacature_nieuw .left_margezone .grid-inhetkort h2,
+.artikel .left_margezone .grid-opdezepagina h2,
+.bekendmaking .left_margezone .grid-opdezepagina h2,
+.livefeed .left_margezone .grid-opdezepagina h2,
+.nieuwsartikel .left_margezone .grid-opdezepagina h2,
+.product .left_margezone .grid-opdezepagina h2,
+.vacature .left_margezone .grid-opdezepagina h2,
+.vacature_nieuw .left_margezone .grid-opdezepagina h2,
+.artikel .left_margezone .grid-locaties h2,
+.bekendmaking .left_margezone .grid-locaties h2,
+.livefeed .left_margezone .grid-locaties h2,
+.nieuwsartikel .left_margezone .grid-locaties h2,
+.product .left_margezone .grid-locaties h2,
+.vacature .left_margezone .grid-locaties h2,
+.vacature_nieuw .left_margezone .grid-locaties h2 {
+    color: #ec0000
+}
+
+#map {
+    height: 200px
+}
+
+.grid-modern-regular-content-with-hero-image .grid-blok.grid-locaties,
+.grid-modern-regular-content .grid-blok.grid-locaties {
+    display: none
+}
+
+.grid-blok.grid-locaties .coords {
+    font-size: .8em
+}
+
+.nojs .iprox-content.tekst .verborgen {
+    display: block
+}
+
+.nojs .grid-locaties li.tekstbrowser {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
