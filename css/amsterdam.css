@@ -5631,7 +5631,7 @@ a.calltoaction-grey+*,
 }
 
 .inline-toggle:hover {
-    background-color: #ec0000
+    background-color: #003980
 }
 
 .inline-toggle.ingeklapt {
@@ -5844,7 +5844,7 @@ div.ingeklapt+* {
 
 .ingeklapt.has-content-border .ingeklapt-body a:active,
 .ingeklapt.has-content-border .ingeklapt-body a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .ingeklapt.has-content-border .ingeklapt-body a:visited {
@@ -5880,7 +5880,7 @@ div.ingeklapt+* {
 
 .ingeklapt .ingeklapt-body a:active,
 .ingeklapt .ingeklapt-body a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .ingeklapt .ingeklapt-body a:visited {
@@ -6019,7 +6019,7 @@ dl.horizontal-largecontent dd {
 }
 
 .inset a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .inset-purple {
@@ -6112,7 +6112,7 @@ dl.horizontal-largecontent dd {
 
 .doorkijk ul li a.selected,
 .doorkijk ul li a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .doorkijk ul li a:visited {
@@ -6140,7 +6140,7 @@ button.slider-control {
 }
 
 button.slider-control:hover {
-    background-color: #ec0000
+    background-color: #003980
 }
 
 button.slider-control.previous {
@@ -6241,7 +6241,7 @@ button.slider-control.play {
 
     .toggle-search:hover .caret,
     .toggle-search:active .caret {
-        background-color: #ec0000;
+        background-color: #003980;
         background-image: url(../fonts/search-icon-white.svg)
     }
 }
@@ -6254,7 +6254,7 @@ button.slider-control.play {
 
     .toggle-search.expanded:hover .caret,
     .toggle-search.expanded:active .caret {
-        background-color: #ec0000;
+        background-color: #003980;
         background-image: url(../fonts/close-icon-white.svg)
     }
 }
@@ -6653,7 +6653,7 @@ button.slider-control.play {
 }
 
 .error-summary ul a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .hasbgcolor .error-summary ul a {
@@ -6661,7 +6661,7 @@ button.slider-control.play {
 }
 
 .hasbgcolor .error-summary ul a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .antwoorden ul {
@@ -6804,7 +6804,7 @@ ul.horizontal li li {
 }
 
 ul.horizontal a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .sitelogo {
@@ -6930,7 +6930,7 @@ ul.horizontal a:hover {
 .Notification-rood a:active,
 .notification-red a:hover,
 .notification-red a:active {
-    color: #ec0000
+    color: #003980
 }
 
 .Notification-rood a:visited,
@@ -6957,7 +6957,7 @@ ul.horizontal a:hover {
 .Notification-grijs a:active,
 .notification-grey a:hover,
 .notification-grey a:active {
-    color: #ec0000
+    color: #003980
 }
 
 .Notification-grijs a:visited,
@@ -6980,7 +6980,7 @@ ul.horizontal a:hover {
 
 .notification-green a:hover,
 .notification-green a:active {
-    color: #ec0000
+    color: #003980
 }
 
 .notification-green a:visited {
@@ -7002,7 +7002,7 @@ ul.horizontal a:hover {
 
 .notification-blue a:hover,
 .notification-blue a:active {
-    color: #ec0000
+    color: #003980
 }
 
 .notification-blue a:visited {
@@ -7219,7 +7219,7 @@ ul.horizontal a:hover {
 }
 
 .search-large .show-searchtags a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .search-large .search-autosuggest-container {
@@ -7314,7 +7314,7 @@ ul.horizontal a:hover {
 .grid-grote-knop .grid-edge:hover h2,
 .grid-grote-knop .grid-edge:hover h3,
 .grid-grote-knop .grid-edge:hover a {
-    color: #000;
+    color: #003980;
     text-decoration: underline
 }
 
@@ -7407,7 +7407,7 @@ ul.horizontal a:hover {
 .hasbgcolor .grid-grote-knop .grid-edge:focus .holder a,
 .hasbgcolor .grid-grote-knop .grid-edge:visited .holder a,
 .hasbgcolor .grid-grote-knop .grid-edge:active .holder a {
-    color: #ec0000
+    color: #003980
 }
 
 .hasbgcolor .grid-superlink h2,
@@ -7438,7 +7438,7 @@ ul.horizontal a:hover {
 
 .hasbgcolor .grid-superlink.selected .grid-edge a:hover,
 .hasbgcolor .grid-grote-knop.selected .grid-edge a:hover {
-    color: #ec0000
+    color: #003980
 }
 
 .hasbgcolor .grid-superlink.selected .grid-edge:hover,
@@ -7677,6 +7677,16 @@ ul.horizontal a:hover {
         margin-left: 0
     }
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #003980;
+  }
+  
+  ::selection {
+    color: white;
+    background: #003980;
+  }
 
 .alert-wrapper {
     padding-bottom: 10px;
@@ -8576,9 +8586,9 @@ ul.horizontal a:hover {
 }
 
 .fixedElement {
-    background-color: #c0c0c0;
+    background-color: transparent;
     position:fixed;
-    top:0;
+    top:200px;
     width:100%;
     z-index:100;
 }
@@ -11405,7 +11415,7 @@ ul.horizontal a:hover {
     z-index: 1
 }
 
-.tijdlijn-hoofditem-wrapper:not(:last-child) .iprox-content.inleiding::before {
+/* .tijdlijn-hoofditem-wrapper:not(:last-child) .iprox-content.inleiding::before {
     background-color: #767676;
     bottom: -30px;
     content: "";
@@ -11416,7 +11426,7 @@ ul.horizontal a:hover {
     top: -15px;
     width: 2px;
     z-index: 10
-}
+} */
 
 .tijdlijn-hoofditem-wrapper:last-child.tijdlijn-has-subitems h2::before {
     background-color: #767676;
