@@ -8585,15 +8585,6 @@ ul.horizontal a:hover {
     display: none
 }
 
-.fixedElement {
-    background-color: transparent;
-    position:fixed;
-    top: 200px;
-    bottom: 0;
-    width:100%;
-    z-index:0;
-}
-
 @media screen and (max-width:539px) {
 
     .iframe_url.tekstbrowser.cookies-not-allowed-yet>.blockedcontent-cookies .cookiebar .text p,
